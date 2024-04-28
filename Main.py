@@ -113,6 +113,9 @@ if selected == "About":
         7) sex	- Respondent's sex - (Female, Male) - 1 - Female,2 - Male.\n
     """)
 
+    st.title("The Prediction Deployed in Render")
+    st.text("https://prediction-1-7wk5.onrender.com")
+
 if selected == "Dashboard":
     correlation_matrix = df_en.corr(method="spearman")
 
