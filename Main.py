@@ -25,7 +25,7 @@ st.markdown('<style>div.block-container{padding-top:1rem;}</style>',unsafe_allow
 df_en=pd.read_csv(r'Vaccine_EDA.csv')
 
 # Reading the Pickle file:
-with open(r"C:\Users\subash\OneDrive\Guvi\Project\Prediction\LRG_model.pkl", 'rb') as f:
+with open(r"LRG_model.pkl", 'rb') as f:
     LGR = pickle.load(f)
 
 page_be_image = f"""
